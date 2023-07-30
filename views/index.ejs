@@ -2,10 +2,41 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='stylesheets/style.css' />
   </head>
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <table style="border-spacing: 10px;">
+      <thead>
+          <tr>
+              <th>ID#</th>
+              <th>Term</th>
+              <th>Description</th>
+              <th>References</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>1</td>
+              <td>DevOps</td>
+              <td>DevOps is a set of practices, tools, and a cultural philosophy 
+                that automate and integrate the processes between software development 
+                and IT teams.</td>
+              <td>Atlassian (2016). What is DevOps? | Atlassian. [online] Atlassian. 
+                Available at: https://www.atlassian.com/devops.</td>
+          </tr>
+          <tr>
+            <td>2 </td>
+            <td>CI/CD</td>
+            <td>CI/CD is a method to frequently deliver apps to customers by introducing 
+              automation into the stages of app development.</td>
+            <td>Redhat (2019). What is CI/CD? [online] Redhat.com. 
+              Available at: https://www.redhat.com/en/topics/devops/what-is-ci-cd.
+              ‌</td>
+          </tr>
+          <!-- and so on... -->
+      </tbody>
+    </table>
   </body>
 </html>
