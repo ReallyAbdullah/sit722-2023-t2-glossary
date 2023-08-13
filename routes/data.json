@@ -59,5 +59,65 @@
         "term":"Vesion Control",
         "description":"Version control, also known as source control, is the practice of tracking and managing changes to software code.",
         "references":"Atlassian (2019). What is version control. [online] Atlassian. Available at: https://www.atlassian.com/git/tutorials/what-is-version-control."
+    },
+    {
+        "id":"11",
+        "term":"Event-Driven Architecture",
+        "description":"An event-driven architecture uses events to trigger and communicate between decoupled services and is common in modern applications built with microservices.",
+        "references":"Amazon Web Services, Inc. (n.d.). Event-Driven Architecture. [online] Available at: https://aws.amazon.com/event-driven-architecture/."
+    },
+    {
+        "id":"12",
+        "term":"Functional Testing",
+        "description":"Functional testing is a type of testing that seeks to establish whether each application feature works as per the software requirements. Each function is compared to the corresponding requirement to ascertain whether its output is consistent with the end user’s expectations.",
+        "references":"www.microfocus.com. (n.d.). What is Functional Testing? Types & Examples | Micro Focus. [online] Available at: https://www.microfocus.com/en-us/what-is/functional-testing."
+    },
+    {
+        "id":"13",
+        "term":"Integration Testing",
+        "description":"Integration testing is a type of software testing where components of the software are gradually integrated and then tested as a unified group. Usually these components are already working well individually, but they may break when integrated with other components.",
+        "references":"Katalon (2023). What Is Integration Testing And Its Types? [online] katalon.com. Available at: https://katalon.com/resources-center/blog/integration-testing [Accessed 13 Aug. 2023]."
+    },
+    {
+        "id":"14",
+        "term":"Legacy Application",
+        "description":"An information system that may be based on outdated technologies, but is critical to day-to-day operations.",
+        "references":"Gartner. (n.d.). Definition of Legacy Application Or System - Gartner Information Technology Glossary. [online] Available at: https://www.gartner.com/en/information-technology/glossary/legacy-application-or-system."
+    },
+    {
+        "id":"15",
+        "term":"Model-Based Testing",
+        "description":"Model-based testing is a software testing technique where the run time behavior of the software under test is checked against predictions made by a model.",
+        "references":"Hamilton, T. (2020). Model Based Testing Tutorial: What is, Tools & Example. [online] www.guru99.com. Available at: https://www.guru99.com/model-based-testing-tutorial.html."
+    },
+    {
+        "id":"16",
+        "term":"Non-Functional Testing",
+        "description":"Non-Functional Testing is defined as a type of Software testing to check non-functional aspects (performance, usability, reliability, etc) of a software application. ",
+        "references":"Hamilton, T. (2019). What is Non Functional Testing? Types with Example. [online] Guru99.com. Available at: https://www.guru99.com/non-functional-testing.html."
+    },
+    {
+        "id":"17",
+        "term":"Regression Testing",
+        "description":"Regression testing is a type of software testing conducted after a code update to ensure that the update introduced no new bugs. This is because new code may bring in new logic that conflicts with the existing code, leading to defects.",
+        "references":"katalon.com. (n.d.). What is Regression Testing? Definition, Tools & How to Get Started. [online] Available at: https://katalon.com/resources-center/blog/regression-testing."
+    },
+    {
+        "id":"18",
+        "term":"Root Cause Analysis",
+        "description":"Root cause analysis (or RCA) is the quality management process by which an organization searches for the root of a problem, issue or incident after it occurs.",
+        "references":"www.ibm.com. (n.d.). What is a root cause analysis? | IBM. [online] Available at: https://www.ibm.com/topics/root-cause-analysis."
+    },
+    {
+        "id":"19",
+        "term":"Test Automation",
+        "description":"Test automation is the practice of running tests automatically, managing test data, and utilizing results to improve software quality.",
+        "references":"AI-driven E2E automation with code-like flexibility for your most resilient tests. (2019). What Is Test Automation? A Simple, Clear Introduction. [online] Available at: https://www.testim.io/blog/what-is-test-automation/."
+    },
+    {
+        "id":"20",
+        "term":"Unit Testing",
+        "description":"A unit test is a type of software test that focuses on components of a software product. The purpose is to ensure that each unit of software code works as expected. A unit can be a function, method, module, object, or other entity in an application’s source code.",
+        "references":"Unit Testing: Definition, Examples, and Critical Best Practices. (2022). Bright Security. [online] 24 May. Available at: https://brightsec.com/blog/unit-testing/."
     }]
 }
