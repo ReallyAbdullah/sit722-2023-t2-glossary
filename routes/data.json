@@ -179,5 +179,65 @@
         "term":"Zero Trust Security Model",
         "description":"An approach to cybersecurity that assumes no trust for users or systems, requiring strict identity verification and access controls for all resources, regardless of location.",
         "references":"CSO Online. (n.d.). What is zero trust? A model for more effective security. [online] Available at: https://www.csoonline.com/article/564201/what-is-zero-trust-a-model-for-more-effective-security.html."
+    },
+    {
+        "id":"31",
+        "term":"Trunk-Based Development",
+        "description":"A software development approach where all developers work on a single shared branch (trunk) of the version control system, promoting continuous integration and minimizing long-lived feature branches.",
+        "references":"paul-hammant (n.d.). Trunk Based Development. [online] trunkbaseddevelopment.com. Available at: https://trunkbaseddevelopment.com"
+    },
+    {
+        "id":"32",
+        "term":"Serverless Orchestration",
+        "description":"The coordination and sequencing of serverless functions or microservices to create complex workflows or applications. It often involves using tools like AWS Step Functions or Azure Durable Functions.",
+        "references":"Amazon Web Services, Inc. (n.d.). Serverless Workflow Orchestration – AWS Step Functions – Amazon Web Services. [online] Available at: https://aws.amazon.com/step-functions/"
+    },
+    {
+        "id":"33",
+        "term":"Service Mesh",
+        "description":"A dedicated infrastructure layer that facilitates communication and control between microservices in a containerized or serverless environment. It offers features like load balancing, security, and observability.",
+        "references":"www.redhat.com. (n.d.). What’s a service mesh? [online] Available at: https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh"
+    },
+    {
+        "id":"34",
+        "term":"Secret Management",
+        "description":"Securely storing, managing, and distributing sensitive information such as API keys, passwords, and encryption keys. It is crucial for maintaining security in DevOps pipelines.",
+        "references":"www.beyondtrust.com. (n.d.). What is Secrets Management? [online] Available at: https://www.beyondtrust.com/resources/glossary/secrets-management"
+    },
+    {
+        "id":"35",
+        "term":"Golden Image",
+        "description":"A pre-configured, standardized system or virtual machine image that contains a fully configured operating system and application stack. It serves as a base for deploying consistent environments.",
+        "references":"www.redhat.com. (n.d.). What is a golden image? [online] Available at: https://www.redhat.com/en/topics/linux/what-is-a-golden-image"
+    },
+    {
+        "id":"36",
+        "term":"Capacity Planning",
+        "description":"The process of forecasting and managing computing resources (CPU, memory, storage) required to meet the demands of an application or system, ensuring optimal performance.",
+        "references":"DZone (2017). Capacity Planning Process – Part 1 - DZone Performance. [online] dzone.com. Available at: https://dzone.com/articles/capacity-planning-process-part-1"
+    },
+    {
+        "id":"37",
+        "term":"Service Catalog",
+        "description":"A centralized directory or repository that lists all available IT services, applications, and resources within an organization. It helps streamline service request and provisioning processes.",
+        "references":"www.freshworks.com. (n.d.). Understanding the Benefits of IT Service Catalog - Freshservice. [online] Available at: https://www.freshworks.com/freshservice/it-service-catalog/"
+    },
+    {
+        "id":"38",
+        "term":"Cattle vs. Pets",
+        "description":"A metaphor used to describe how servers are managed in a cloud-native and DevOps context. 'Cattle' refers to disposable, easily replaceable servers, while 'Pets' are servers that are carefully nurtured and maintained.",
+        "references":"Samir (2021). DevOps Concepts: Pets vs. Cattle. [online] IOD - The Content Engineers. Available at: https://iamondemand.com/blog/devops-concepts-pets-vs-cattle/"
+    },
+    {
+        "id":"39",
+        "term":"Custom Resource Definitions (CRDs)",
+        "description":"Allow you to define custom resources and their schemas in Kubernetes, extending the Kubernetes API to manage custom application-specific objects.",
+        "references":"Kubernetes. (n.d.). Custom Resources. [online] Available at: https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/"
+    },
+    {
+        "id":"40",
+        "term":"ResourceQuotas",
+        "description":"Kubernetes objects that allow you to set constraints on the resource usage (CPU, memory, storage) of pods and containers within a namespace, preventing resource overuse.",
+        "references":"Kubernetes. (n.d.). Resource Quotas. [online] Available at: https://kubernetes.io/docs/concepts/policy/resource-quotas/"
     }]
 }
