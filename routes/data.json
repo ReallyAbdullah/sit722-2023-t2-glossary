@@ -119,5 +119,65 @@
         "term":"Unit Testing",
         "description":"A unit test is a type of software test that focuses on components of a software product. The purpose is to ensure that each unit of software code works as expected. A unit can be a function, method, module, object, or other entity in an application’s source code.",
         "references":"Unit Testing: Definition, Examples, and Critical Best Practices. (2022). Bright Security. [online] 24 May. Available at: https://brightsec.com/blog/unit-testing/."
+    },
+    {
+        "id":"21",
+        "term":"GitOps",
+        "description":"A DevOps methodology that uses Git repositories as the source of truth for infrastructure and application deployments. It involves using version-controlled manifests and automation to manage and update infrastructure and applications.",
+        "references":"www.weave.worksurl! (n.d.). Scaling GitOps in 2023 - Emerging Developments & Predictions. [online] Available at: https://www.weave.works/blog/scaling-gitops-in-2023"
+    },
+    {
+        "id":"22",
+        "term":"Observability",
+        "description":"The ability to monitor and understand complex systems by collecting and analyzing data from various sources, including logs, metrics, traces, and events.",
+        "references":"Young, T. (2021). Modern Observability Is a Single Braid of Data. [online] The New Stack. Available at: https://thenewstack.io/modern-observability-is-a-single-braid-of-data/"
+    },
+    {
+        "id":"23",
+        "term":"Chaos Engineering",
+        "description":"The practice of intentionally injecting failures and chaos into a system to proactively identify weaknesses and vulnerabilities, with the goal of improving system resilience.",
+        "references":"principlesofchaos.org. (n.d.). PRINCIPLES OF CHAOS ENGINEERING - Principles of chaos engineering. [online] Available at: https://principlesofchaos.org"
+    },
+    {
+        "id":"24",
+        "term":"Dark Launching",
+        "description":"A technique where new features or changes are deployed to production but remain hidden or inactive until they are ready to be activated for specific users or conditions.",
+        "references":"Split. (n.d.). Dark Launch. [online] Available at: https://www.split.io/glossary/dark-launch/"
+    },
+    {
+        "id":"25",
+        "term":"Immutable Infrastructure",
+        "description":"An approach where server instances, containers, or virtual machines are never modified once they are created; instead, new instances are created to replace old ones when updates are needed.",
+        "references":"Stella, J. (2016). Immutable Infrastructure."
+    },
+    {
+        "id":"26",
+        "term":"Pipeline Orchestration",
+        "description":"The process of coordinating and managing the various stages and components of a continuous integration/continuous deployment (CI/CD) pipeline, ensuring that each stage executes in the correct order.",
+        "references":"martinekuan (2022). Choose a data pipeline orchestration technology - Azure Architecture Center. [online] learn.microsoft.com. Available at: https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/pipeline-orchestration-data-movement"
+    },
+    {
+        "id":"27",
+        "term":"Canary Deployment",
+        "description":"A release strategy in which a new version of an application is deployed to a subset of users or servers to test its stability and performance before rolling it out to the entire production environment.",
+        "references":"Sato, D. (2014). bliki: CanaryRelease. [online] martinfowler.com. Available at: https://martinfowler.com/bliki/CanaryRelease.html"
+    },
+    {
+        "id":"28",
+        "term":"Bimodal IT",
+        "description":"A concept that involves managing two separate but complementary modes of IT operation: one for traditional, stable systems (Mode 1) and another for agile, innovative systems (Mode 2).",
+        "references":"Gartner. (n.d.). Definition of Bimodal - Gartner Information Technology Glossary. [online] Available at: https://www.gartner.com/en/information-technology/glossary/bimodal"
+    },
+    {
+        "id":"29",
+        "term":"Serverless Computing",
+        "description":"A cloud computing model where developers write and deploy code in the form of functions without the need to manage servers or infrastructure. The cloud provider dynamically manages the underlying resources.",
+        "references":"AWS (2019). Serverless Computing – Amazon Web Services. [online] Amazon Web Services, Inc. Available at: https://aws.amazon.com/serverless/"
+    },
+    {
+        "id":"30",
+        "term":"Zero Trust Security Model",
+        "description":"An approach to cybersecurity that assumes no trust for users or systems, requiring strict identity verification and access controls for all resources, regardless of location.",
+        "references":"CSO Online. (n.d.). What is zero trust? A model for more effective security. [online] Available at: https://www.csoonline.com/article/564201/what-is-zero-trust-a-model-for-more-effective-security.html."
     }]
 }
