@@ -239,5 +239,65 @@
         "term":"ResourceQuotas",
         "description":"Kubernetes objects that allow you to set constraints on the resource usage (CPU, memory, storage) of pods and containers within a namespace, preventing resource overuse.",
         "references":"Kubernetes. (n.d.). Resource Quotas. [online] Available at: https://kubernetes.io/docs/concepts/policy/resource-quotas/"
+    },
+    {
+        "id":"41",
+        "term":"Kubelet",
+        "description":"A Kubernetes agent that runs on each node in the cluster. It is responsible for managing containers on the node and ensuring they are in the desired state.",
+        "references":"Kubernetes. (n.d.). kubelet. [online] Available at: https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/"
+    },
+    {
+        "id":"42",
+        "term":"Ephemeral Containers",
+        "description":"Temporary containers that can be added to a running pod for troubleshooting or debugging purposes without modifying the pod's original configuration.",
+        "references":"Kubernetes. (n.d.). Ephemeral Containers. [online] Available at: https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/"
+    },
+    {
+        "id":"43",
+        "term":"Configuration Drift",
+        "description":"When servers in an organization’s infrastructure become more and more different over time, drifting away from their original intended state. Typically caused by untracked and unmonitored changes to the system over time.",
+        "references":"Coder. (n.d.). What is configuration drift? [online] Available at: https://coder.com/blog/what-is-configuration-drift"
+    },
+    {
+        "id":"44",
+        "term":"Build Artifact Repository",
+        "description":"Centralized storage for all binaries used during build which simplifies dependency management and build processe and helps make automated deployment practical and scalable.",
+        "references":"JetBrains. (n.d.). What is an Artifact Repository? | TeamCity CI/CD Guide. [online] Available at: https://www.jetbrains.com/teamcity/ci-cd-guide/concepts/artifact-repository/"
+    },
+    {
+        "id":"45",
+        "term":"Complex-Adaptive Systems",
+        "description":"A system made of a collection of similar, smaller pieces that are dynamically connected and can change to adapt to changes for the benefit of a bigger system.",
+        "references":"Chan, S. (2001). Complex Adaptive Systems. [online] Available at: https://web.mit.edu/esd.83/www/notebook/Complex%20Adaptive%20Systems.pdf"
+    },
+    {
+        "id":"46",
+        "term":"Out-of-the-box Tools",
+        "description":"Tools that provide a set of functionalities that works immediately after installation with hardly any configuration or modification needs, allowing a quick deployment pipeline setup.",
+        "references":"Reed, N. (2022). OOTB meaning in tech: is ‘out of the box’ always better? [online] Parker Software. Available at: https://www.parkersoftware.com/blog/ootb-meaning-in-tech-is-out-of-the-box-always-better"
+    },
+    {
+        "id":"47",
+        "term":"Rollback",
+        "description":"An automatic/manual operation that restores a system to a previously defined state.",
+        "references":"Unleash. (n.d.). Rollback. [online] Available at: https://www.getunleash.io/rollback"
+    },
+    {
+        "id":"48",
+        "term":"Self-Service Deployment ",
+        "description":"The action of automating deployment processes to an extent for developers to allow project managers or even clients to directly control deployments.",
+        "references":"Deploy, O. (n.d.). Empower your team with self-service application deployments. [online] Octopus Deploy. Available at: https://octopus.com/blog/self-service-deployments"
+    },
+    {
+        "id":"49",
+        "term":"Technical Debt",
+        "description":"Aging technology that persistently causes issues or increases risk of security compromises.",
+        "references":"Radigan, D. (n.d.). Escaping the black hole of technical debt. [online] Atlassian. Available at: https://www.atlassian.com/agile/software-development/technical-debt"
+    },
+    {
+        "id":"50",
+        "term":"Self-Managing Flow",
+        "description":"A way of organizing work and processes that allows teams to function autonomously and efficiently. Simply put, a 'No Boss Team'.",
+        "references":"reclaim.ai. (n.d.). What are Self-Managed Teams? Top Benefits vs. Disadvantages | Reclaim. [online] Available at: https://reclaim.ai/blog/self-managed-teams"
     }]
 }
